@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Giải Phương Trình Bậc 1</title>
+	<style type="text/css">
+		.h{
+			background-color: blue;
+			color: white;
+		}
+		.row{
+			background-color: green;
+			color: white;
+			border-radius: 15px;
+		}
+	</style>
+</head>
+<body>
+	<h3 class="h">Giải Phương Trình Bậc 1</h3>
+	<button class="row" onclick="Nhapx()">Nhập X</button>
+	<button class="row" onclick="Nhapy()">Nhập Y</button>
+	<button class="row" onclick="ketqua()">Kết Quả</button>
+	<script type="text/javascript">
+		var x, y, s
+		function Nhapx() {
+			x = parseInt(prompt('nhap x'))
+		}
+		function Nhapy() {
+			y = parseInt(prompt('nhap y'))
+		}
+		function ketqua() {
+			s = x + y;
+			alert('s = ' +s)
+
+		}
+	</script>
+
+</body>
+</html>
